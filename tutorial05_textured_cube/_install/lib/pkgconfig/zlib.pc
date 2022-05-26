@@ -1,0 +1,9 @@
+prefix=C:/builds/mesa/mesa/_install
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+Libs: -L${libdir} -lz
+Cflags: -I${includedir}

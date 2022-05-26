@@ -1,0 +1,10 @@
+prefix=C:/builds/mesa/mesa/_install
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: osmesa
+Description: Mesa Off-screen Rendering Library
+Version: 8.0.0
+Libs: -L${libdir} -losmesa
+Libs.private: -lpthread -pthread
+Cflags: -I${includedir}
