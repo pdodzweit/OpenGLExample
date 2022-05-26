@@ -1,9 +1,0 @@
-prefix=C:/builds/mesa/mesa/_install
-libdir=${prefix}/lib
-includedir=${prefix}/include
-
-Name: DirectX-Headers
-Description: Headers for using D3D12
-Version: 1.4.9
-Libs: -L${libdir} -lDirectX-Guids
-Cflags: -I${includedir}
